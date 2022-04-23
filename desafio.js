@@ -60,4 +60,26 @@ function realizarCompra(comprasDaCliente) {
     }
 }
 
+let clienteSolange = [
+    {produto: 'Bolsa grande', valor: 89.0}, 
+    {produto: 'Cinto dourado', valor: 25.0}, 
+    {produto: 'Blusa simples', valor: 35.0}, 
+    {produto: 'Calça jeans clara', valor: 150.0}, 
+    {produto: 'Blusa branca gola alta', valor: 60.0}, 
+    {produto: 'Short rosa canelado', valor: 80.0}]
+
+let clienteVanessa = [
+    {produto: 'Jaqueta Jeans', valor: 300.0}, 
+    {produto: 'Calça preta', valor: 130.0}, 
+    {produto: 'Vestido florido', valor: 200.0},
+    {produto: 'Colar de Prata', valor: 260.0},
+    {produto: 'Bolsa grande', valor: 100.0},
+    {produto: 'Salto agulha 39', valor: 250.0},
+    {produto: 'Sandália florida', valor: 100.0}, 
+    {produto: 'Tênis casual rosa', valor: 120.0}]
+
+
+
 realizarCompra(clienteLilit)
+realizarCompra(clienteSolange)
+realizarCompra(clienteVanessa)
